@@ -1,24 +1,24 @@
-POST http://localhost:3333/videos
+POST https://node-do-zero-qjvq.onrender.com/videos
 Content-Type: application/json
 
 {
-    "title": "Video 03",
-    "description": "Esse é o terceiro vídeo",
+    "title": "Video Render",
+    "description": "Esse é o terceiro vídeo Render",
     "duration": 180
 
 }
 
 ###
 
-GET http://localhost:3333/videos
+GET https://node-do-zero-qjvq.onrender.com/videos
 
 ###
 
-GET http://localhost:3333/videos?search=node
+GET https://node-do-zero-qjvq.onrender.com/videos?search=node
 
 ###
 
-PUT http://localhost:3333/videos/254ebc61-03b0-46de-ab53-03940d05360f
+PUT https://node-do-zero-qjvq.onrender.com/videos/254ebc61-03b0-46de-ab53-03940d05360f
 Content-Type: application/json
 
 {
@@ -30,4 +30,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/c81571c2-4b38-4d9b-bb32-32e787cdd90c
+DELETE https://node-do-zero-qjvq.onrender.com/videos/c81571c2-4b38-4d9b-bb32-32e787cdd90c
